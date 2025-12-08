@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Form Validation App</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h2>User Registration</h2>
+
+    <!-- Message Box -->
+    <div id="msgBox"></div>
+
+    <form id="registerForm">
+      <input type="text" id="username" placeholder="Full Name">
+
+      <input type="email" id="useremail" placeholder="Email">
+
+      <input type="text" id="userphone" placeholder="Phone Number (10 digits)">
+
+      <div class="password-area">
+        <input type="password" id="userpassword" placeholder="Password">
+        <span id="togglePassword">Show</span>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
